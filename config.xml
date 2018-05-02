@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dictionary" version="2.25" xmlns="http://www.w3.org/ns/widgets">
+  <name>Teenwise Dictionary</name>
+  <preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="permissions" value="none" />
+  <preference name="orientation" value="portrait" />
+  <preference name="target-device" value="universal" />
+  <preference name="fullscreen" value="false" />
+
+  <plugin name="cordova-plugin-inappbrowser" spec="1.3.0" />
+  <plugin name="cordova-plugin-device" spec="1.1.2" />
+  <plugin name="cordova-plugin-splashscreen" spec="3.2.2" />
+
+  <platform name="android">
+  <icon src="res/drawable-hdpi/Icon-96.png" density="hdpi" />
+  <icon src="res/drawable-mdpi/Icon-72.png" density="mdpi" />
+  <icon src="res/drawable-xhdpi/Icon-144.png" density="xhdpi" />
+  <icon src="res/drawable-xxhdpi/Icon-192.png" density="xxhdpi" />
+  <icon src="res/drawable-xxxhdpi/Icon-512.png" density="xxxhdpi" />
+      <splash src="" />
+</platform>
+</widget>
